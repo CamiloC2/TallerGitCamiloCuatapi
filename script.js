@@ -29,5 +29,6 @@ function convertirNumeroALetras(num) {
 function traducir() {
     const numero = document.getElementById('numero').value;
     const resultado = convertirNumeroALetras(parseInt(numero));
-    document.getElementById('resultado').textContent = resultado;
+    document.getElementById('resultado-es').textContent = resultado;
 }
+
